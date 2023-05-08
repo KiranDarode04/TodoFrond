@@ -1,0 +1,39 @@
+body {
+  background: #afd9e0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+input[text]{
+  background-color: transparent;
+  justify-items: center;
+
+}
+input{
+  border-radius: 10px;
+  position: inherit;
+}
+.icon{
+  cursor: pointer;
+  flex: auto;
+  margin: 5px;
+  color: rgb(104, 104, 241);
+  width: 25px;
+  height: 16px;
+
+}
+.icon:hover{
+  color: rgb(226, 43, 80);
+ width: 20px;
+
+}
+li{
+  text-decoration: none;
+}
+.listData{
+      list-style: none;
+       flex-wrap: wrap;
+       text-align: center;
+}
